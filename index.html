@@ -3,15 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Fonts (REGLA 1) -->
+    <!-- Google Fonts: Bungee Spice -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome para icono -->
+    <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- Hoja de estilos externa -->
@@ -21,96 +20,83 @@
 </head>
 
 <body>
-    <!-- REGLA 3: Aplicada al h1 -->
-    <h1>CSS Selectors</h1>
+
+    <!-- REGLA 3: h1 con Bungee Spice -->
+    <h1 class="bungee-spice-regular">CSS Selectors</h1>
 
     <p>A CSS selector selects the HTML element(s) you want to style.</p>
 
-    <!-- REGLA 5: aplicado a .selectors -->
     <div class="selectors">
-        <!-- REGLA 4 y REGLA 7 aplicadas aquí -->
         <h2>CSS Selectors</h2>
-        <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+        <p>CSS selectors are used to find the HTML elements you want to style.</p>
         <p>We can divide CSS selectors into five categories:</p>
         <ul>
-            <li>Simple selectors (select elements based on name, id, class)</li>
+            <li>Simple selectors (element, id, class)</li>
             <li>
-                <!-- REGLA 9 aplicada a este enlace -->
                 <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">
                     Combinator selectors
                 </a>
-                (select elements based on a specific relationship between them)
             </li>
             <li>
                 <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">
                     Pseudo-class selectors
                 </a>
-                (select elements based on a certain state)
             </li>
             <li>
                 <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">
-                    Pseudo-elements selectors
+                    Pseudo-element selectors
                 </a>
-                (select and style a part of an element)
             </li>
             <li>
                 <a href="https://www.w3schools.com/css/css_attribute_selectors.asp" target="_blank">
                     Attribute selectors
                 </a>
-                (select elements based on an attribute or attribute value)
             </li>
         </ul>
     </div>
 
     <hr>
 
-    <!-- REGLA 4 y REGLA 7 aplicadas aquí -->
-    <h2 class="selector">The CSS <span><!-- REGLA 8 -->element</span> Selector</h2>
-    <p>The element selector selects HTML elements based on the element <span><!-- REGLA 8 -->name</span> (body, p, h1, h5, a, div, etc.).</p>
+    <h2 class="selector">The CSS <span>element</span> Selector</h2>
+    <p>The element selector selects HTML elements based on the element <span>name</span>.</p>
 
     <hr>
 
-    <h2 class="selector">The CSS <span><!-- REGLA 8 -->id</span> Selector</h2>
-    <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
-    <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
-    <p>To select an element with a specific id, write a hash <span><!-- REGLA 8 -->(#)</span> character, followed by the id of the element.</p>
+    <h2 class="selector">The CSS <span>id</span> Selector</h2>
+    <p>The id selector uses the id attribute to select a specific element.</p>
+    <p>The id of an element must be unique.</p>
+    <p>To select it, write a hash <span>#</span> followed by the id name.</p>
 
     <hr>
 
-    <h2 class="selector">The CSS <span><!-- REGLA 8 -->class</span> Selector</h2>
-    <p>The class selector selects HTML elements with a specific class attribute.</p>
-    <p>To select elements with a specific class, write a period <span><!-- REGLA 8 -->(.)</span> character, followed by the class name.</p>
+    <h2 class="selector">The CSS <span>class</span> Selector</h2>
+    <p>The class selector selects elements with a class attribute.</p>
+    <p>To select a class, write a dot <span>.</span> followed by the class name.</p>
 
     <hr>
 
-    <!-- REGLA 6 y REGLA 7 aplicadas aquí -->
-    <h2 id="universal">The CSS <span><!-- REGLA 8 -->Universal</span> Selector</h2>
-    <p>The universal selector <span><!-- REGLA 8 -->(*)</span> selects all HTML elements on the page.</p>
+    <h2 id="universal">The CSS <span>Universal</span> Selector</h2>
+    <p>The universal selector <span>*</span> selects all HTML elements.</p>
 
     <div>
-        <p>Use our 
+        <p>Use the 
             <a href="https://www.w3schools.com/cssref/trysel.asp" target="_blank">
                 CSS Selector Tester
             </a> 
-            to demonstrate the different selectors.
+            to try them out.
         </p>
     </div>
 
     <hr>
 
     <div id="gallery">
-        <!-- REGLA 11 -->
         <div>
-            <!-- REGLA 10 -->
             <h3>CSS Syntax</h3>
-            <!-- REGLA 12 -->
-            <img src="./resources/regla_css.jpg" alt="">
+            <img src="./resources/regla_css.jpg" alt="CSS syntax example">
         </div>
         <div>
-            <!-- REGLA 10 -->
-            <h3>All CSS Simple Selectors</h3>
-            <!-- REGLA 12 -->
-            <img src="./resources/selectors.png" alt="">
+            <h3>All Simple Selectors</h3>
+            <img src="./resources/selectors.png" alt="CSS selectors chart">
         </div>
     </div>
 

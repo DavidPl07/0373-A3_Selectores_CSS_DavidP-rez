@@ -1,6 +1,6 @@
 /* REGLA 1: selector universal para cambiar tipo de fuente */
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bungee Spice', sans-serif;
 }
 
 /* REGLA 2: body con margen 0 y padding lateral 20% */
@@ -71,4 +71,9 @@ img {
     width: 100%;
     border: 1px solid darkcyan;
     border-radius: 5px;
+}
+
+/* Clase específica Bungee Spice (opcional si quieres aplicarla en algún h2 también) */
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
 }
